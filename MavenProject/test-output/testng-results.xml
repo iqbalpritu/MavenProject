@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-11T22:07:35Z" name="Default suite" finished-at="2019-12-11T22:07:56Z" duration-ms="21429">
+    <groups>
+    </groups>
+    <test started-at="2019-12-11T22:07:35Z" name="Default test" finished-at="2019-12-11T22:07:56Z" duration-ms="21429">
+      <class name="interviewQuestion1.GoogleSearchCounting">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:interviewQuestion1.GoogleSearchCounting@15ca7889]" started-at="2019-12-11T22:07:35Z" name="openBrowser" finished-at="2019-12-11T22:07:45Z" duration-ms="9852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="GoogleSearch()[pri:0, instance:interviewQuestion1.GoogleSearchCounting@15ca7889]" started-at="2019-12-11T22:07:45Z" name="GoogleSearch" finished-at="2019-12-11T22:07:56Z" duration-ms="10851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:interviewQuestion1.GoogleSearchCounting@15ca7889]" started-at="2019-12-11T22:07:56Z" name="CloseBrowser" finished-at="2019-12-11T22:07:56Z" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- interviewQuestion1.GoogleSearchCounting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
