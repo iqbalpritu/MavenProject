@@ -15,7 +15,7 @@ public class GoogleSearchCountingTest extends BaseClass{
 	@Test
 	public void GoogleSearch() throws InterruptedException{
 	driver.get("https://www.google.com/");
-	driver.findElement(By.xpath("//*[@type='text']")).sendKeys("New York");
+	driver.findElement(By.xpath("//*[@type='text']")).sendKeys("Bangladesh");
 	Thread.sleep(1000);	
 	
 	List<WebElement> List=driver.findElements(By.xpath("//ul[@role='listbox']/li"));
@@ -24,7 +24,7 @@ public class GoogleSearchCountingTest extends BaseClass{
 	for(int i=0; i<List.size(); i=i+1) {
 		System.out.println(List.get(i).getText());
 		
-		if(List.get(i).getText().equals("New York post")) 
+		if(List.get(i).getText().equals("Bangladesh News")) 
 		{
 			List.get(i).click();
 			break;
